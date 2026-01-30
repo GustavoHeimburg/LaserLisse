@@ -1,0 +1,36 @@
+body {
+    outline: 5px solid red;
+}
+
+.combo-extra {
+    background-color: #e6f0ff;
+    border-radius: 18px;
+    padding: 16px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.combo-extra:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.combo-extra .dish-title {
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+
+.combo-extra .dish-description {
+    color: #334155;
+}
+
+
+.combo-extra .dish-price h4 {
+    color: #0f172a;
+    font-weight: bold;
+}
+
+#mostrar-mais #combos #dishes2 .dish.combo-extra {
+    background-color: #e6f0ff;
+}
